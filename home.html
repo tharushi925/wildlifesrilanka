@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS-Files/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="CSS-Files/index.css">
+  <title>Document</title>
+  <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+
+<nav>
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="introduction.html">Introduction</a></li>
+    <li><a href="about-us.html">About DOW</a></li>
+    <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+    <li><a href="animals.html">Endemic Animals</a></li>
+    <li id="park"><a href="#">Park</a>
+      <ul class="sub-menu">
+        <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+        <li><a href="yala.html">Yala National Park</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<header>
+  <h1 class="head-text">Wildlife Sri Lanka</h1>
+
+</header>
+
+<main>
+  <div  x-data="indexData">
+    <section class="main-section-1">
+
+    <h2 x-text="title1section1" class="main-section-1-h2"></h2>
+    
+    <img class="main-section-1-img"src="Image-files-2/HD-wallpaper-spring-rendezvous-forest-bird-green-pasare-thai-phing-spring-couple.jpg">
+    
+    <p id="contentedit" x-text="parasection1" class="main-section-1-p"></p>
+
+    <div class="contentedit">
+      <div>
+        <button class="buttonedit" id="edit">Edit</button>
+        <button class="buttonsavechanges" id="submit">Save Changes</button>
+      </div>
+      <div>
+        <textarea class="editbox" id="area" ></textarea>
+      </div>
+
+    </div>
+
+   
+    
+    
+    </section>
+  
+
+
+    <section class="main-section-1">
+
+      <h2 x-text="title2section2" class="main-section-1-h2"></h2>
+
+      <img class="main-section-1-img" src="Image-files-2/pexels-photo-1083515.jpeg">
+
+      <p id="contentedit1" x-text="parasection2" class="main-section-1-p"></p>
+
+      <div class="contentedit">
+        <div>
+          <button class="buttonedit" id="edit1">Edit</button>
+          <button class="buttonsavechanges" id="submit1">Save Changes</butoon>
+        </div>
+        <div>
+          <textarea class="editbox" id="area1" ></textarea>
+        </div>
+
+      </div>
+
+      
+
+    </section>
+
+
+
+    <section class="main-section-1">
+
+      <h2 x-text="title3section3" class="main-section-1-h2"></h2>
+
+      <img class="main-section-1-img" src="Image-files-2/image.png">
+
+      <p id="contentedit2" x-text="parasection3" class="main-section-1-p"></p>
+      <div class="contentedit">
+        <div>
+          <button class="buttonedit" id="edit2">Edit</button>
+          <button class="buttonsavechanges" id="submit2">Save Changes</button>
+        </div>
+        <div>
+          <textarea class="editbox" id="area2"></textarea>
+        </div>
+
+      </div>
+      
+
+     </section>
+
+
+  </div>
+   <section class="main-section-1">
+    <h2 class="main-section-1-h2">Ecological Marvels</h2>
+    <section class="pointed-list">
+
+      <section class="pointed-list1">
+        <ul>
+          <li>Sinharaja Forest Reserve</li>
+          <ol>
+            <li>Sri Lanka Purple-faced Langur</li>
+            <li>Green Pit Viper</li>
+            <li>Layard's Parakeet</li>
+          </ol>
+
+        </ul>
+      </section>
+      <section class="pointed-list2">
+        <ul>
+          <li>Knuckles Mountain Range</li>
+          <ol>
+            <li>Dusky-stripped Jungle Squirrel</li>
+            <li>Hump-nosed Lizard</li>
+            <li>Ceylon Slender Loris</li>
+          </ol>
+        </ul>
+      </section>
+      <section class="pointed-list3">
+        <ul>
+          <li>Horton Plains National Park</li>
+          <ol>
+            <li>Sambar Deer</li>
+            <li>Highland Frog</li>
+            <li>Yellow-eared Bulbul</li>
+
+
+          </ol>
+        </ul>
+      </section>
+
+    </section>
+
+  </section>
+
+<script src="index.js"></script>
+</main>
+
+<footer>
+  <section>
+    <section class="footer1">
+      <a href="https://www.facebook.com/departmentofwildlife/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/wildlife_conservation_official/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.youtube.com/c/wildlifeconservationsociety" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+    </section>
+    <section class="footer-nav">
+      <ul>
+        <li><a href="">News</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">Our Team</a></li>
+      </ul>
+    </section>
+    <section class="footer-bottm">
+      <p>&copy; 2024 | All right reserved</p>
+    </section>
+  </section>
+</footer>
+
+</html>

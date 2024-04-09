@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS-Files/main.css">
+  <link rel="stylesheet" href="CSS-Files/animals.css">
+  <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="introduction.html">Introduction</a></li>
+      <li><a href="about-us.html">About DOW</a></li>
+      <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+      <li><a href="animals.html">Endemic Animals</a></li>
+      <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+      <li><a href="yala.html">Yala National Park</a></li>
+    </ul>
+  </nav>
+  <body>
+    <header>
+      <h1 class="head-text">Animals Sri Lanka</h1>
+    </header>
+    <main>
+      <div x-data="animalsData">
+        <h2 x-text="maintitle" class="animal-main-headsection-h2"></h2>
+        <section class="animal-main-subsection">
+          <section class="animal-main-subsection-1">
+            <h2 x-text="subtitleyala" class="animal-main-section-h2"></h2>
+            <p id="yalacontent" x-text="yalaparagraph"></p>
+            <div class="contentedit">
+              <div>
+                <button class="buttoneditanimal" id="yalaparabuttonedit">Edit</button>
+                <button class="buttonsavechangesanimal" id="yalaparabuttonsubmit">Save Changes</button>
+              </div>
+              <div>
+                <textarea class="editboxanimal" id="yalaeditarea" ></textarea>
+              </div>
+
+            </div>
+            
+            <section class="image1">
+              <img src="Image-files-2/Yala park.2.jpeg">
+        
+            </section>
+            <br>
+            <a href="yala.html"><button class="national-parks">Yala National Park</button></a>
+          </section>
+
+          <section class="animal-main-subsection-1">
+            <h2 x-text="subtitlewilpattu" class="animal-main-section-h2"></h2>
+            <p id="wilpattucontent" x-text="wilpattuparagraph"></p>
+            <div class="contentedit">
+              <div>
+                <button class="buttoneditanimal" id="wilpattuparabuttonedit">Edit</button>
+                <button class="buttonsavechangesanimal" id="wilpattuparabuttonsubmit">Save Changes</button>
+              </div>
+              <div>
+                <textarea class="editboxanimal" id="wilpattueditarea" class="editboxanimal"></textarea>
+              </div>
+
+            </div>
+            
+            <section class="image1">
+              <img src="Image-files-2/wilpattu park.2..jpeg">
+          
+            </section>
+            <br>
+            <a href="wilpattu.html"><button class="national-parks">Wilpattu National Park</button></a>
+          </section>
+          </section>
+
+          <section>
+            <h2 x-text="animalpicturestitle" class="Animal-main-section-h2"> </h2>
+            <section class="imagesection">
+          
+              <section>
+                <h3 x-text="elephanttitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Sri Lankan Elephant for animal page.jpeg">
+                <p id="contentelephant" x-text="elephantpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonelephant">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonelephant">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareaelephant" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="frogmouthtitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Sri Lanka Frogmouth.jpeg">
+                <p id="contentfrogmouth" x-text="frogmouthpara"> </p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonfrogmouth">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonfrogmouth">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareafrogmouth" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="kangarootitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Sri Lanka Kangaroo Lizard.jpeg">
+                <p id="contentkagaroo" x-text="kangaroopara"> </p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonkangaroo">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonkangaroo">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareakangaroo" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="birdwingtitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Sri Lanka Birdwing.jpeg">
+                <p id="contentbirdwing" x-text="birdwingpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonbirdwing">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonbirdwing">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareabirdwing" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="pitvipertitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Green Pit Viper.jpeg">
+                <p id="contentpitviper" x-text="pitviperpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonpitviper">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonpitviper">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareapitviper" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="woodpigeontitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Sri Lanka Wood Pigeon.jpeg">
+                <p id="cotentwoodpigeon"x-text="woodpigeonpara"></p>
+                <div class="contentedit" >
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonwoodpigeon">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonwoodpigeon">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareawoodpigeon" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="leopardtitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Sri Lankan Leopard for animal page.jpeg">
+                <p id="contentleopard" x-text="leopardpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonleopard">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonleopard">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editarealeopard" ></textarea>
+                  </div>
+                  
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="humplizardtitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Hump-nosed Lizard.jpeg">
+                <p id="contenthumplizard" x-text="humplizardpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonhumplizard">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonhumplizard">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareahumplizard" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="bluemormontitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Sri Lankan Blue Mormon.jpeg">
+                <p id="contentbluemormon" x-text="bluemormonpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonbluemormon">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonbluemormon">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareabluemormon" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="langurtitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Purple-faced Langur for animal page.jpeg">
+                <p id="contentlangur" x-text="langurpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonlangur">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonlangur">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editarealanguar" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="junglefowltitle" class="Animal-main-section-h3"></h3>
+                <img  src="Image-files-2/Sri Lankan Junglefowl.jpeg">
+                <p id="contentjunglefowl" x-text="junglefowlpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonjunglefowl">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonjunglefowl">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareajunglefowl" ></textarea>
+                  </div>
+                  
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="fishingcattitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Fishing Cat.jpeg">
+                <p id="contentfishingcat" x-text="fishingcatpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonfishingcat">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonfishingcat">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareafishingcat" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="russelltitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Russell's Viper.jpeg">
+                <p id="contentrussell" x-text="russellpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonrussell">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonrussell">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editarearussell" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="treenymphtitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Sri Lanka Tree Nymph.jpeg">
+                <p id="contenttreenymph" x-text="treenymphpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttontreenymph">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttontreenymph">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareatreenymph" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="slothbeartitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Sloth Bear for animal page.jpeg">
+                <p id="contentslothbear" x-text="slothbearpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonslothbear">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonslothbear">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareaslothbear" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="wolfsnaketitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Sri Lankan Wolf Snake.jpeg">
+                <p id="contentwolfsnake" x-text="wolfsnakepara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonwolfsnake">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonwolfsnake">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareawolfsnake" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="parakeettitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Layard's Parakeet.jpeg">
+                <p id="contentparakeet" x-text="parakeetpara"></p>
+                <div id="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonparakeet">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonparakeet">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareaparakeet" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="sambardeertitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Sambar Deer for animal page.jpeg">
+                <p id="contentsambardeer" x-text="sambardeerpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonsambardeer">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonsambardeer">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareasumbardeer" ></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="wildboartitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Wild Boar.jpeg">
+                <p id="contentwildboar" x-text="wildboarpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonwildboar">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonwildboar">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareawildboar"></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="spottedcattitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Rusty-spotted Cat.jpeg">
+                <p id="contentspottedcat" x-text="spottedcatpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonspottedcat">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonspottedcat">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareaspottedcat"></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="nosedvipertitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Hump-nosed Viper.jpeg">
+                <p id="contentnosedviper" x-text="nosedviperpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonnosedviper">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonnosedviper">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareanosedviper"></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="spotteddeartitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Spotted Deer for animal page.jpeg">
+                <p id="contentspotteddear" x-text="spotteddearpara" ></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonspotteddear">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonspotteddear">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareaspotteddear"></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="commonkaraittitle"  class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Common Krait.jpeg">
+                <p id="contentcommonkarait" x-text="commonkaraitpara" ></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttoncommonkarait">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttoncommonkarait">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareacommonkarait"></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="indianmuntjactitle"  class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Indian Muntjac.jpeg">
+                <p id="contentindianmuntjac" x-text="indianmuntjacpara" ></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonindianmuntjac">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonindianmuntjac">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareaindianmuntjac"></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="rumpedsunbirdtitle"  class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Purple-rumped Sunbird.jpeg">
+                <p id="contentrumpedsunbird" x-text="rumpedsunbirdpara" ></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonrumpedsunbird">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonrumpedsunbird">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editarearumpedsunbird"></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="GreenGardenLizardtitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Green Garden Lizard.jpeg">
+                <p id="contentgreengardenlizard"  x-text="GreenGardenLizardpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttongreengardenlizard">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttongreengardenlizard">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareagreengardenlizard"></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3  x-text="greyhornbilltitle"class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Ceylon Grey Hornbill.jpeg">
+                <p id="contentgreyhornbill" x-text="greyhornbillpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttongreyhornbill">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttongreyhornbill">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareagreyhornbill"></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="scimitartitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Sri Lanka Scimitar Babbler.jpeg">
+                <p id="contentscimitar" x-text="scimitarpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonscimitar">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonscimitar">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareascimitar"></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3 x-text="liplizardtitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Painted-lip Lizard.jpeg">
+                <p id="contentliplizard" x-text="liplizardpara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttonliplizard">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttonliplizard">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id=" editarealiplizard"></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+              <section>
+                <h3  x-text="commonhousegeckotitle" class="Animal-main-section-h3"></h3>
+                <img src="Image-files-2/Common House Gecko.jpeg">
+                <p id="contentcommonhousegecko" x-text="commonhousegeckopara"></p>
+                <div class="contentedit">
+                  <div>
+                    <button class="animalpicturesedit" id="editbuttoncommonhousegecko">Edit</button>
+                    <button class="animalapicturessubmit" id="submitbuttoncommonhousegecko">Save Changes</button>
+                  </div>
+                  <div>
+                    <textarea class="animalpicturestextarea" id="editareacommonhousegecko"></textarea>
+                  </div>
+
+                </div>
+                
+              </section>
+            </section>
+          </section>
+
+      </div>
+      
+        
+      
+
+
+      <script src="animals.js"></script>
+      
+    </main>
+    <footer>
+      <section>
+        <section class="footer1">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </section>
+        <section class="footer-nav">
+          <ul>
+            <li><a href="">News</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Our Team</a></li>
+          </ul>
+        </section>
+        <section class="footer-bottm">
+          <p>&copy; 2024 | All right reserved</p>
+        </section>
+      </section>
+    </footer>
+  </body>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS-Files/main.css">
+  <link rel="stylesheet" href="CSS-Files/about-us.css">
+  <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="introduction.html">Introduction</a></li>
+      <li><a href="about-us.html">About DOW</a></li>
+      <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+      <li><a href="animals.html">Endemic Animals</a></li>
+      <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+      <li><a href="yala.html">Yala National Park</a></li>
+    </ul>
+  </nav>
+  <body>
+    <header>
+      <h1 class="aboutus-section-h1">DOW</h1>
+    </header>
+    <main>
+      <div x-data="aboutusData">
+        <section>
+          <h2 x-text="aboutustitle" class="aboutus-main-section-h2"></h2>
+
+          <p id="contentdow" x-text="aboutusparagraph"></p>
+          <div class="contentedit">
+            <div>
+              <button class="buttonedit" id="editbuttondow">Edit</button>
+              <button class="buttonsavechanges" id="submitbuttondow">Save Chnages</button>
+            </div>
+            <div>
+              <textarea class="editbox" id="editareadow" ></textarea>
+            </div>
+
+          </div>
+          
+        
+        </section>
+
+      </div>
+     
+      <section>
+        <h2 class="aboutus-main-section-h2">Protected Areas</h2>
+        <section class="about-us-image-section">
+          <section>
+            <img class="imageaboutus" src="IMAGE-Files/Sinharaja Forest Reserve about us page.jpg">
+          </section>
+          <section>
+            <img class="imageaboutus" src="IMAGE-Files/Maduru Oya National Park about us page.jpg">
+          </section>
+          <section>
+            <img class="imageaboutus" src="IMAGE-Files/Udawalawe National Park about us page.jpg">
+          </section>
+          <section>
+            <img class="imageaboutus" src="IMAGE-Files/Minneriya National Park about us page.jpg">
+          </section>
+          <section>
+            <img class="imageaboutus" src="IMAGE-Files/Kaudulla National Park about us page.jpg">
+          </section>
+          <section>
+            <img class="imageaboutus" src="IMAGE-Files/Gal Oya National Park about us page.jpg">
+          </section>
+          <section>
+            <img class="imageaboutus" src="IMAGE-Files/Bundala National Park about us page.jpg">
+          </section>
+          <section>
+            <img class="imageaboutus" src="IMAGE-Files/Kumana National Park about us page.jpg">
+          </section>
+          <section>
+            <img class="imageaboutus" src="IMAGE-Files/wilpattu for about page.jpg">
+          </section>
+          <section>
+            <img class="imageaboutus" src="IMAGE-Files/horton about us page.jpg">
+          </section>
+          <section>
+            <img class="imageaboutus" src="IMAGE-Files/yala about us page.jpeg">
+          </section>
+          <section>
+            <img class="imageaboutus" src="IMAGE-Files/Wasgamuwa National Park.jpg">
+          </section>
+        </section>
+      </section>
+      
+      <section>
+        <h2 class="aboutus-main-section-h2">Our Location</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.3792077741423!2d79.9983491!3d6.9645142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259c6ab0a7547%3A0xc58dfaf84093c1bb!2sDepartment%20of%20Wildlife%20Conservation!5e0!3m2!1sen!2slk!4v1705498848740!5m2!1sen!2slk"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </section>
+      <script src="about-us.js">
+        
+      </script>
+    </main>
+    <footer>
+      <section>
+        <section class="footer1">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </section>
+        <section class="footer-nav">
+          <ul>
+            <li><a href="">News</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Our Team</a></li>
+          </ul>
+        </section>
+      </section>
+    </footer>
+    
+  </body>
+
+</html>

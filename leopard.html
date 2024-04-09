@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS-Files/main.css">
+  <link rel="stylesheet" href="CSS-Files/leopard.css">
+  <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="introduction.html">Introduction</a></li>
+      <li><a href="about-us.html">About DOW</a></li>
+      <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+      <li><a href="animals.html">Endemic Animals</a></li>
+      <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+      <li><a href="yala.html">Yala National Park</a></li>
+    </ul>
+  </nav>
+  <body>
+    <header>
+      <h1 class="head-text">Leopards Sri Lanka</h1>
+    </header>
+    <main>
+      <div x-data="leopardData">
+        <section class="leopard-main-subsection4">
+        
+          <section class="leopard-main-subsection4-1">
+
+            <h3 x-text="titlesinharaja" class="leopard-main-section-h3"></h3>
+
+            <p id="lscontent" x-text="paragraphsinharaja"></p>
+            <div class="contenteditleopard">
+              <div>
+                <button class="buttoneditleopard" id="leopardsinharajabuttonedit">Edit</button>
+                <button class="buttonsavechangesleopard" id="leopardsinharajabuttonsubmit">Save Changes</button>
+              </div>
+              <div>
+                <textarea class="editboxleopard" id="lsparaeditarea" ></textarea>
+              </div>
+
+            </div>
+            
+            
+
+          </section>
+        <section class="leopard-main-subsection4-1">
+
+            <h3 x-text="titleknuckles" class="leopard-main-section-h3"></h3>
+
+            <p id="lkcontent" x-text="paragraphknuckles"></p>
+            <div class="contenteditleopard">
+              <div>
+                <button class="buttoneditleopard" id="leopardknucklesbuttonedit">Edit</button>
+                <button class="buttonsavechangesleopard" id="leopardknucklesbuttonsubmit">Save Changes</button>
+              </div>
+              <div>
+                <textarea class="editboxleopard" id="lkparaeditarea" ></textarea>
+              </div>
+
+            </div>
+            
+
+          </section>
+        <section class="leopard-main-subsection4-1">
+
+            <h3 x-text="titlehorton" class="leopard-main-section-h3"></h3>
+
+            <p id="lhcontent"x-text="paragraphhorton"></p>
+            <div class="contenteditleopard">
+              <div>
+                <button class="buttoneditleopard" id="leopardhortbuttonedit">Edit</button>
+                <button class="buttonsavechangesleopard" id="leopardhortbuttonsubmit">Save Changes</button>
+              </div>
+              <div>
+                <textarea class="editboxleopard" id="lhparaeditarea" ></textarea>
+              </div>
+
+            </div>
+            
+
+          </section>
+        </section>
+
+        <section>
+          <h2 x-text="titlethree" class="leopard-main-section-h2"></h2>
+        
+          <h3 x-text="titlefour" class="leopard-main-section-h3"></h3>
+          <p id="contentL" x-text="parathree"></p>
+          <div  class="contenteditleopard">
+            <div>
+              <button class="buttoneditleoparddescription" id="descriptioneditbuttonL">Edit</button>
+              <button class="buttonsavechangesleopard" id="descriptionsubmitbuttonL">Save Changes</button>
+            </div>
+            <div>
+              <textarea class="editboxleoparddecription" id="editareaL"></textarea>
+            </div>
+          </div>
+          
+        
+          <section class="leopard-main-subsection3">
+            <section>
+              <img src="IMAGE-Files/Human-Wildlife Conflict.1..jpg">
+            </section>
+            <section>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31659.46628724814!2d80.61298694106306!3d7.305121624579554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae367d310d42f47%3A0xa7836ebc3674f02c!2sRange%20Forest%20Office!5e0!3m2!1sen!2slk!4v1705386747180!5m2!1sen!2slk"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+          </section>
+          <section class="leopard-main-subsection4">
+        
+            <section class="leopard-main-subsection4-1">
+              <h3 x-text="listtitleconsequences" class="leopard-main-section-h3"></h3>
+              <br>
+              <p>
+                <ol>
+                  <template x-for="item in Consequenceslistone">
+                    <li x-text="item"></li>
+                  </template>
+                </ol>
+                <p x-text="listtextone"></p><br>
+                <p x-text="listtexttwo"></p><br>
+                <p x-text="listtextthree"></p>
+
+              </p>
+              
+        
+            </section class="leopard-main-subsection4">
+            <section class="leopard-main-subsection4-1">
+              <h3 x-text="listtitlemitigation" class="leopard-main-section-h3"></h3>
+              <br>
+             
+              <ol>
+                <template x-for="items in mitigationlist">
+                  <li x-text="items"></li>
+                </template>
+              </ol>
+              <p x-text="listtextfour"></p><br>
+              <p x-text="listtextfive"></p><br>
+              <p x-text="listtextsix"></p>
+            
+        
+            </section>
+        
+          </section>
+        </section>
+        <section>
+          <h2 x-text="titlewildlifeconflict" class="leopard-main-section-h2"></h2>
+          <h3 x-text="titledescription" class="leopard-main-section-h3"></h3>
+          <p id="contentdescriptiontwo" x-text="parawildlifeconflict"></p>
+          <div class="contenteditleopard">
+            <div>
+              <button  class="buttoneditleoparddescription" id="editbuttondecriptiontwo">Edit</button>
+              <button class="buttonsavechangesleopard" id="submitbuttondescriptiontwo">Save Changes</button>
+            </div>
+            <div>
+              <textarea class="editboxleoparddecription" id="editareadescriptiontwo"></textarea>
+            </div>
+          </div>
+          <section class="leopard-main-subsection3">
+            <section>
+              <img src="IMAGE-Files/Human-Wildlife Conflict.jpg">
+            </section>
+            <section>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.820296399385!2d79.86714187475695!3d6.912078493087411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25977274e51b5%3A0x9314a3079f30f673!2sIUCN%20-%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1705394277233!5m2!1sen!2slk"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+            </section>
+          </section>
+        
+          <section class="leopard-main-subsection3">
+        
+            <section class="leopard-main-subsection4">
+              <section class="leopard-main-subsection4-1">
+                <h3 x-text="listtitleconsequencestwo" class="leopard-main-section-h3"></h3><br>
+                <p>
+                <ol>
+                  <template x-for="itemss in Consequenceslisttwo">
+                    <li x-text="itemss"></li>
+                  </template>
+                  </ol>
+                <p x-text="listtextseven"></p><br>
+                <p x-text="listtexteight"></p><br>
+                <p x-text="listtextnine"></p>
+                </p>
+              </section>
+              <section class="leopard-main-subsection4-1">
+                <h3 x-text="titlemechanismstoreduse" class="leopard-main-section-h3"></h3><br>
+                <p>
+                <ol>
+                  <template x-for="itemsss in mechnismslist">
+                    <li x-text="itemsss"></li>
+                  </template>
+                </ol>
+                <p x-text="listtextten"></p><br>
+                <p x-text="listtexteleven"></p><br>
+                <p x-text="listtexttwelve"></p>
+                </p>
+              </section>
+            </section>
+        
+        
+        
+        
+        
+          </section>
+      
+      </div>
+      
+      
+      
+      
+      <script src="leopard.js"></script>
+      
+    </main>
+    <footer>
+      <section>
+        <section class="footer1">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </section>
+        <section class="footer-nav">
+          <ul>
+            <li><a href="">News</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Our Team</a></li>
+          </ul>
+        </section>
+        <section class="footer-bottm">
+          <p>&copy; 2024 | All right reserved</p>
+        </section>
+      </section>
+    </footer>
+  </body>
+
+</html>

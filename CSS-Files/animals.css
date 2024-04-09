@@ -1,0 +1,162 @@
+header {
+  background-image: url("../IMAGE-Files/animal\ background\ page.jpg");
+}
+
+
+.national-parks{
+  padding: 10px 20px;
+  margin: 30px;
+  border-radius: 50px;
+  border: none;
+  transition: 0.5s;
+}
+
+.national-parks:hover {
+  scale: 1.2;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+
+.national-parks:active {
+  scale: 0.95;
+}
+.animal-main-subsection {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: rgb(48, 49, 47);
+  border-radius: 10px;
+  gap: 2rem;
+
+}
+
+.animal-main-subsection-1 {
+  padding: 2rem;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  
+  border-radius: 10px;
+
+}
+.animal-main-section-h2{
+  font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+.image1{
+  align-items: center;
+  margin-top: 16px;
+}
+.imagesection{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 30px;
+  row-gap: 30px;
+  margin-top: 4rem;
+}
+.Animal-main-section-h2{
+  font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    width: 100%;
+}
+.Animal-main-section-h3{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 6px;
+
+
+}
+.animal-main-headsection-h2{
+  font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    width: 100%;
+}
+.head-text{
+  text-align: center;
+  margin-top: 15rem;
+  font-size: 75px;
+}
+.buttoneditanimal{
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  border-radius: 50px;
+  background-color: rgb(70, 65, 65);
+  color: black;
+  border-style: none;
+  margin-top: 2rem;
+
+}
+.buttonsavechangesanimal{
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 50px;
+  background-color: rgb(70, 65, 65);
+  color: black;
+  border-style: none;
+  margin-top: 2rem;
+}
+.editboxanimal{
+  background-color: rgb(48, 49, 47);
+  border-style: none;
+  color: white;
+  width: 100%;
+  height: 3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.animalpicturesedit{
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  border-radius: 50px;
+  background-color: rgb(70, 65, 65);
+  color: black;
+  border-style: none;
+  margin-top: 2rem;
+
+
+}
+.animalapicturessubmit{
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 50px;
+  background-color: rgb(70, 65, 65);
+  color: black;
+  border-style: none;
+  margin-top: 2rem;
+}
+.animalpicturestextarea{
+  background-color: black;
+    border-style: none;
+    color: white;
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+ 

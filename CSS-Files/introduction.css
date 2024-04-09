@@ -1,0 +1,79 @@
+
+header{
+  background-image: url("../Image-files-2/background\ images\ forest.jpg");
+  width: 100%;
+  background-image: 100%;
+}
+.head-text {
+  text-align: center;
+    margin-top: 15rem;
+    font-size: 75px;
+}
+.subsection-1{
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: rgb(48, 49, 47);
+  border-radius: 10px;
+  padding: 3rem;
+  
+}
+.intro-main-section{
+  margin-left: 2rem;
+  margin-right: 2rem;
+ 
+}
+iframe{
+  height: 100%;
+  border-radius: 10px;
+  border: 0;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+}
+
+.intro-main-section-h2{
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 4rem;
+  margin-bottom: 2rem;
+  font-weight: 800;
+  width: 100%;
+}
+.intro-main-section-p{
+  margin-bottom: 4rem;
+}
+table,th,td{
+  border: none;;
+  
+  
+  border-collapse: collapse;
+  padding: 2rem;
+}
+
+.table-section{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-bottom: 4rem;
+  text-align: start;
+}
+.intro-main-section-h2-1{
+  font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.table-1{
+  width: 100%;
+  height: 100;
+}
+.table-head{
+  background-color:transparent;
+}

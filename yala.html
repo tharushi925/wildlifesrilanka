@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS-Files/main.css">
+  <link rel="stylesheet" href="CSS-Files/yala.css">
+  <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>Document</title>
+  <script src="//unpkg.com/alpinejs" defer></script>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="introduction.html">Introduction</a></li>
+      <li><a href="about-us.html">About DOW</a></li>
+      <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+      <li><a href="animals.html">Endemic Animals</a></li>
+      <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+      <li><a href="yala.html">Yala National Park</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1 class="head-text">Yala National Park</h1>
+  </header>
+  <main>
+    <div x-data="yalaData">
+      <section class="section1">
+        <h2 x-text="firsttitleyala" class="Yala-h2"></h2>
+        <p id="contentBiodiversityofYalaNationalpark" x-text="firstparayala"></p>
+        <div class="contentedit">
+          <div>
+            <button class="buttonedit" id="editbuttonBiodiversityofYalaNationalpark">Edit</button>
+            <button class="buttonsavechanges" id="submitbuttonBiodiversityofYalaNationalpark">Save Changes</button>
+          </div>
+          <div>
+            <textarea class="editbox" id="editareaBiodiversityofYalaNationalpark" style="width: 100%; height: 4rem;"></textarea>
+          </div>
+
+        </div>
+        
+        <section class="biodiversity-yala">
+          <section>
+            <img class="yalaimage" src="IMAGE-Files/yala bio.jpg">
+          </section>
+          <section>
+            <img class="yalaimage" src="IMAGE-Files/yala bio 1.jpg">
+          </section>
+          <section>
+            <img class="yalaimage" src="IMAGE-Files/01.jpg">
+          </section>
+      
+        </section>
+        <section class="section1">
+          <h2 x-text="secondtitleyala" class="Yala-h2"></h2>
+          <p id="contentSafariExperienceofYalaNationalPark" x-text="secondparayala"></p>
+
+          <div class="contentedit">
+            <div>
+              <button class="buttonedit" id="editbuttonSafariExperienceofYalaNationalPark">Edit</button>
+              <button class="buttonsavechanges" id="submitbuttonSafariExperienceofYalaNationalPark">Save Changes</button>
+            </div>
+            <div>
+              <textarea class="editbox" id="editareaSafariExperienceofYalaNationalPark" style="width: 100%; height: 4rem;"></textarea>
+            </div>
+
+          </div>
+          
+          
+          <section class="biodiversity-yala">
+            <section>
+              <img class="yalaimage" src="IMAGE-Files/Safari Experience of Yala National Park.1..jpg">
+            </section>
+            <section>
+              <img class="yalaimage" src="IMAGE-Files/Safari Experience of Yala National Park.2..jpg">
+            </section>
+            <section>
+              <img class="yalaimage" src="IMAGE-Files/Safari Experience of Yala National Park.3..jpg">
+            </section>
+          </section>
+      
+        </section>
+        <section class="section1">
+          <h2 x-text="thirdtitleyala" class="Yala-h2"></h2>
+          <p id="contentLeopardDensityofYalaNationalPark"x-text="thirdparayala">
+            <div class="contentedit">
+              <div>
+                <button class="buttonedit" id="editbuttonLeopardDensityofYalaNationalPark">Edit</button>
+                <button class="buttonsavechanges" id="submitbuttonLeopardDensityofYalaNationalPark">Save Changes</button>
+              </div>
+              <div>
+                <textarea class="editbox" id="editareaLeopardDensityofYalaNationalPark" style="width: 100%; height: 4rem;"></textarea>
+              </div>
+
+            </div>
+            
+            
+
+          </p>
+          <section class="biodiversity-yala">
+            <section>
+              <img class="yalaimage" src="IMAGE-Files/leopard.8..jpg">
+            </section>
+            <section>
+              <img class="yalaimage" src="IMAGE-Files/leopards.yala.jpg">
+            </section>
+            <section>
+              <img class="yalaimage" src="IMAGE-Files/yala leopards.2..jpeg">
+            </section>
+      
+          </section>
+
+    </div>
+    <script src="yala.js">
+      
+    </script>
+    
+  </main>
+  <footer>
+    <section>
+      <section class="footer1">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+      </section>
+      <section class="footer-nav">
+        <ul>
+          <li><a href="">News</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Our Team</a></li>
+        </ul>
+      </section>
+      <section class="footer-bottm">
+        <p>&copy; 2024 | All right reserved</p>
+      </section>
+    </section>
+  </footer>
+</body>
+</html>

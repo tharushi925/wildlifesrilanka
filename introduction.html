@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS-Files/introduction.css">
+  <link rel="stylesheet" href="CSS-Files/main.css">
+  <title>Document</title>
+  <script src="//unpkg.com/alpinejs" defer></script>
+  
+</head>
+<nav>
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="introduction.html">Introduction</a></li>
+    <li><a href="about-us.html">About DOW</a></li>
+    <li><a href="leopard.html">Sri Lankan Leopard</a></li>
+    <li><a href="animals.html">Endemic Animals</a></li>
+    <li><a href="wilpattu.html">Wilpattu National Park</a></li>
+    <li><a href="yala.html">Yala National Park</a></li>
+  </ul>
+</nav>
+  
+<header>
+  <h1 class="head-text">Introduction</h1>
+</header>
+<main>
+  <div x-data="introductionData">
+
+    <section class="intro-main-section">
+
+      <h2 x-text="title1" class="intro-main-section-h2"></h2>
+
+      <p id="contentsinharaja" x-text="para1" class="intro-main-section-p"></p>
+      <div class="contentedit">
+        <div>
+          <button class="buttonedit" id="editparasinharaja">Edit</button>
+          <button class="buttonsavechanges" id="submitparasinharaja">Save Changes</button>
+        
+        </div>
+        <textarea class="editbox" id="editareaone" ></textarea>
+
+      </div>
+      
+
+      <section class="subsection-1">
+        <section>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.8991566477052!2d80.45745167475218!3d6.406990793583723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3e76bd109d45f%3A0x8c0ef1010649701b!2sSinharaja%20Forest%20Reserve!5e0!3m2!1sen!2slk!4v1705139604648!5m2!1sen!2slk"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+          <img src="IMAGE-Files/sinharaja.6..jpg" class="image">
+    
+        </section>
+      </section>
+    </section>
+
+
+
+    <section class="intro-main-section">
+
+      <h2 x-text="title2" class="intro-main-section-h2"></h2>
+
+      <p id="contenthorton" x-text="para2" class="intro-main-section-p"></p>
+      <div class="contentedit">
+        <div>
+          <button class="buttonedit" id="editparahorton">Edit</button>
+          <button class="buttonsavechanges" id="submitparahorton">Save Changes</button>
+        
+        </div>
+        <textarea class="editbox" id="editareatwo" ></textarea>
+
+      </div>
+
+      
+
+      <section class="subsection-1">
+        <section>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.674038567171!2d80.79975837475597!3d6.809445993188055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3882edb4b78ef%3A0xcebca89153777249!2sHorton%20Plains%20National%20Park!5e0!3m2!1sen!2slk!4v1705143402975!5m2!1sen!2slk"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+          <img src="IMAGE-Files/bakers-falls-horton-plains-nuwara-eliya.jpg" class="image">
+        </section>
+      </section>
+    </section>
+
+
+    <section class="intro-main-section">
+    
+      <h2 x-text="title3" class="intro-main-section-h2"></h2>
+    
+      <p id="contentknuckles" x-text="para3" class="intro-main-section-p"></p>
+
+      <div class="contentedit">
+        <div>
+          <button class="buttonedit" id="editparaknuckles">Edit</button>
+          <button class="buttonsavechanges" id="submitparaknuckles">Save Changes</button>
+        
+        </div>
+        <textarea class="editbox" id="editareathree" ></textarea>
+
+      </div>
+
+      
+    
+      <section class="subsection-1">
+        <section>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126613.4972002731!2d80.6324413184219!3d7.390626441150974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae35f659beee899%3A0x3bf7cc23068a888d!2sKnuckles!5e0!3m2!1sen!2slk!4v1705145453730!5m2!1sen!2slk"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+          <img src="IMAGE-Files/Knuckles mountain range.JPG" class="image">
+        </section>
+      </section>
+    
+    </section>
+
+  </div>
+  
+    
+    
+   
+    <section class="table-section">
+      <h2 class="intro-main-section-h2-1">Summary</h2>
+      <table class="table-1">
+        
+        <tr class="table-head">
+          <th>Forest name</th>
+          <th>Animal's Name</th>
+          <th>Animal</th>
+          <th>About</th>
+        </tr>
+        <tr>
+          <td rowspan="4">Sinharaja Forest Reserve</td>
+          <td>Red-faced Malkoha</td>
+          <td><img src="Image-files-2/Red-faced Malkoha.jpeg"></td>
+          <td>The Red-faced Malkoha is another avian gem that calls the Sinharaja Forest home. This medium-sized bird is characterized
+          by its distinctive appearance, featuring a striking red face, black crest, and a predominantly green body. It is known
+          for its stealthy and deliberate movements as it navigates through the forest canopy in search of insects, caterpillars,
+          and small reptiles. The melodious calls of the Red-faced Malkoha often echo through the dense foliage, adding to the
+          symphony of sounds in the vibrant ecosystem of Sinharaja. Bird enthusiasts visiting this UNESCO World Heritage Site are
+          often treated to the sight and sounds of this captivating species.</td>
+        </tr>
+        <tr>
+          <td>Sri Lankan Rose</td>
+          <td><img src="Image-files-2/Sri Lankan Rose.jpeg"></td>
+          <td>The Sinharaja Forest is home to the enchanting Sri Lankan Rose butterfly. This captivating species, scientifically known
+          as Pachliopta jophon, boasts striking black wings adorned with vibrant crimson and white markings. Its elegant flight
+          patterns and slow, graceful movements make it a mesmerizing sight as it flits among the diverse flora of Sinharaja. The
+          Sri Lankan Rose primarily feeds on nectar from various flowering plants, contributing to the delicate balance of this
+          unique ecosystem.</td>
+        </tr>
+        <tr>
+          <td>Sri Lanka Reed Frog</td>
+          <td><img src="Image-files-2/reed frog.jpeg"></td>
+          <td>In the vibrant ecosystem of the Sinharaja Forest, the Sri Lanka Reed Frog, scientifically known as Hyperolius raratus,
+          is a charismatic amphibian that adds to the biodiversity of this tropical rainforest. Characterized by its small size
+          and striking green coloration, the Sri Lanka Reed Frog is often found near streams and water bodies, where it breeds.
+          Its distinct call, resembling a musical trill, resonates through the lush vegetation. This tiny amphibian, with its
+          unique adaptations and ecological role, contributes to the intricate web of life within the Sinharaja Forest,
+          captivating the attention of researchers and nature enthusiasts alike.</td>
+        </tr>
+        <tr>
+          <td>Green Pit Viper</td>
+          <td><img src="Image-files-2/green pit viper table.jpeg"></td>
+          <td>The Sinharaja Forest is home to the Green Pit Viper, a venomous and visually striking reptile. Scientifically known as
+          Trimeresurus trigonocephalus, this arboreal snake is characterized by its vibrant green scales and a triangular-shaped
+          head. Well-adapted to the dense vegetation, the Green Pit Viper patiently waits on branches, preying on small birds and
+          rodents. Despite its venomous nature, this serpent is a crucial part of the Sinharaja's ecosystem, contributing to the
+          delicate balance of predator-prey relationships. Caution and respect for its habitat are essential when encountering
+          this fascinating reptile in the Sinharaja Forest.</td>
+        </tr>
+        <tr>
+          <td rowspan="4">Horton Plains National Park</td>
+          <td>Hill Swallow</td>
+          <td><img src="Image-files-2/Hill Swallow.jpeg"></td>
+          <td>The Horton Plains National Park, located in Sri Lanka, is home to the Hill Swallow, scientifically known as Hirundo
+          domicola. These agile and acrobatic birds are easily identified by their distinctive blue-black plumage and deeply
+          forked tails. Often found near water bodies and grassy areas within the park, Hill Swallows are skilled insect catchers,
+          darting through the air with remarkable agility. Their presence adds a dynamic element to the picturesque landscapes of
+          Horton Plains, making them a delightful sight for birdwatchers exploring this unique and biodiverse national park.</td>
+        </tr>
+        <tr>
+          <td>Sri Lanka Tree Nymph</td>
+          <td><img src="Image-files-2/Sri Lanka Tree Nymph.jpeg"></td>
+          <td>Fluttering gracefully through the montane landscapes of Horton Plains National Park is the Sri Lanka Tree Nymph,
+          scientifically known as Idea iasonia. This large and enchanting butterfly showcases a wingspan adorned with ethereal
+          white patterns against a delicate background. With its slow and majestic flight, the Sri Lanka Tree Nymph can often be
+          spotted near forested areas and clearings, adding a touch of elegance to the biodiversity of Horton Plains. As it
+          gracefully hovers over wildflowers, this butterfly becomes a captivating symbol of the park's natural beauty, drawing
+          the admiration of nature enthusiasts and butterfly aficionados alike.</td>
+        </tr>
+        <tr>
+          <td>Purple-faced Langur</td>
+          <td><img src="Image-files-2/Purple-faced Langur.34.jpeg"></td>
+          <td>The Horton Plains National Park in Sri Lanka is home to the Purple-faced Langur, an engaging and endemic primate
+          species. With its dark fur and distinctive purple-colored face, this langur is often seen swinging through the montane
+          forests and grasslands of the park. Living in social groups, the Purple-faced Langur is a herbivorous mammal, feeding on
+          leaves, fruits, and flowers. Its presence adds a sense of vitality to the unique ecosystems of Horton Plains, making it
+          a captivating subject for wildlife enthusiasts exploring the natural wonders of this protected area.</td>
+        </tr>
+        <tr>
+          <td>Rhino-horned Lizard</td>
+          <td><img src="Image-files-2/Rhino-horned Lizard.jpeg"></td>
+          <td>The Rhino-horned Lizard, scientifically named Ceratophora stoddartii, is a unique reptile found in Horton Plains
+          National Park, Sri Lanka. Known for its distinctive horn-like projections on the snout, resembling a miniature
+          rhinoceros, this lizard adeptly camouflages in the montane grasslands and rocky areas. Its presence adds intrigue to the
+          diverse reptile population of the park, and visitors may observe it basking in the sun or navigating through rocky
+          terrain, showcasing its remarkable features.</td>
+        </tr>
+        <tr>
+          <td rowspan="4">Knuckles Mountain Range</td>
+          <td>Sri Lanka Yellow-eared Bulbul</td>
+          <td><img src="Image-files-2/Sri Lanka Yellow-eared Bulbul.jpeg"></td>
+          <td>The Sri Lanka Yellow-eared Bulbul, scientifically known as Pycnonotus penicillatus, is a small, vibrant bird found in
+          the Knuckles Mountain Range. With its distinctive yellow ear patches and a blend of olive and yellow plumage, this
+          charming bird's melodious calls fill the mountainous forests as it searches for insects, fruits, and nectar. Renowned
+          for its adaptability to diverse habitats, the Yellow-eared Bulbul contributes to the rich avian biodiversity of the
+          Knuckles Mountain Range, a UNESCO World Heritage Site. Birdwatchers and nature enthusiasts find joy in observing this
+          captivating species amidst the lush greenery of the mountains.</td>
+        </tr>
+        <tr>
+          <td>Common Bluebottle</td>
+          <td><img src="Image-files-2/Common Bluebottle.jpeg"></td>
+          <td>Adding to the enchanting tapestry of butterflies in the Knuckles Mountain Range is the Common Bluebottle, scientifically
+          named Graphium sarpedon. This butterfly, with its striking blue wings adorned with black margins, gracefully flits
+          through the mountainous landscapes. Its presence brings a splash of color to the diverse flora of the region. With an
+          agile flight pattern, the Common Bluebottle is often observed in sunny clearings and near water sources, making it a
+          delightful sight for butterfly enthusiasts exploring the biodiversity of the Knuckles Mountain Range.</td>
+        </tr>
+        <tr>
+          <td>Golden Palm Civet</td>
+          <td><img src="Image-files-2/Golden Palm Civet.jpeg"></td>
+          <td>Within the biodiverse habitat of the Knuckles Mountain Range in Sri Lanka, the Golden Palm Civet, scientifically known
+          as Paradoxurus zeylonensis, is an elusive and captivating mammal. This small carnivore, characterized by its
+          golden-brown fur and distinctive markings, navigates the dense vegetation of the mountainous terrain. Nocturnal by
+          nature, the Golden Palm Civet is often spotted foraging for fruits and small animals under the cover of darkness. Its
+          secretive behavior and unique appearance make it a fascinating addition to the mammalian diversity of the Knuckles
+          Mountain Range, offering wildlife enthusiasts a rare and rewarding glimpse into the region's rich ecosystem.</td>
+        </tr>
+        <tr>
+          <td>Knuckles Lantern Bug</td>
+          <td><img src="Image-files-2/Knuckles Lantern Bug.jpeg"></td>
+          <td>In the Knuckles Mountain Range of Sri Lanka, the Knuckles Lantern Bug, scientifically identified as Pyrops knuckles, is
+          a distinctive insect that adds to the region's biodiversity. Characterized by its elongated body and remarkable
+          lantern-like projection, this insect showcases intricate patterns and vibrant colors. Typically found on vegetation, the
+          Knuckles Lantern Bug is known for its unique appearance and is often camouflaged within the dense foliage. As a
+          fascinating member of the insect community in the Knuckles Mountain Range, it contributes to the intricate tapestry of
+          the region's rich and diverse ecosystem, capturing the attention of those exploring the area's natural wonders.</td>
+        </tr>
+
+
+      </table>
+      
+
+    </section>
+    <script src="introduction.js"></script>
+
+    
+</main>
+<footer>
+    <section>
+      <section class="footer1">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+      </section>
+      <section class="footer-nav">
+        <ul>
+          <li><a href="">News</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">Our Team</a></li>
+        </ul>
+      </section>
+      <section class="footer-bottm">
+        <p>&copy; 2024 | All right reserved</p>
+      </section>
+    </section>
+</footer>
+
+</html>
